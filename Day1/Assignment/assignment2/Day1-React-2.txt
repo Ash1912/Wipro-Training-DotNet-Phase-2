@@ -1,0 +1,7 @@
+1. Create a React App to pass user details from Login Component , and display the username in Welcome Component
+using
+1. Props 
+ 
+1. using Class Component
+2. using Function Component
+
