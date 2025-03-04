@@ -1,0 +1,33 @@
+Create Express Service with Employee Array
+
+id
+
+name
+
+address
+
+dept
+
+manager
+
+ 
+
+Perform CRUD operations in controllers folder
+
+Use routing
+
+ 
+
+ 
+
+Test in postman
+
+ 
+
+Call this service from React Application
+
+In React, use bootstrap, also for Forms use 
+
+1. axois to make calls to service
+
+2. Formik with yup for validation
