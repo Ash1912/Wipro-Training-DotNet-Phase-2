@@ -1,0 +1,15 @@
+create express service with employee array id,name,address,dept,manager.
+
+express-employee-service
+│── 📂 controllers
+│   ├── employeeController.js
+│── 📂 routes
+│   ├── employeeRoutes.js
+│── 📂 data
+│   ├── employees.js
+│── 📂 config
+│   ├── db.js  (Optional for database integration)
+│── server.js
+│── package.json
+│── .gitignore
+│── README.md
