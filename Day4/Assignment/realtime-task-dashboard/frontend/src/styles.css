@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    transition: background 0.3s ease, color 0.3s ease;
+  }
+  
+  .light {
+    background: #f4f4f4;
+    color: black;
+  }
+  
+  .dark {
+    background: #222;
+    color: white;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .task-form input {
+    padding: 8px;
+    width: 70%;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  .task-form button {
+    padding: 8px 15px;
+    background: blue;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .task-item {
+    display: flex;
+    justify-content: space-between;
+    background: white;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+  }
+
+  .task-item button {
+    padding: 6px 12px;
+    border: none;
+    cursor: pointer;
+    margin-left: 10px; /* Adds space between buttons */
+    border-radius: 4px;
+}
+
+.task-item button:first-child {
+    background: #ff4d4d; /* Red for delete */
+    color: white;
+}
+
+.task-item button:nth-child(2) {
+    background: #4caf50; /* Green for edit */
+    color: white;
+}
+
+.task-item button:hover {
+    opacity: 0.8;
+}
+
+  
+  .dark .task-item {
+    background: #333;
+  }
+  
+  .notification {
+    color: green;
+    font-weight: bold;
+  }
+  
+  .theme-toggle {
+    background: orange;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+  }
