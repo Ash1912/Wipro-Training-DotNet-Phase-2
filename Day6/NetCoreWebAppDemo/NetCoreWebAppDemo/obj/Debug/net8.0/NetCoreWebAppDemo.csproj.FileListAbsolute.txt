@@ -1,0 +1,6 @@
+U:\BTECH_KIIT\Training\Wipro\Development\Wipro-Training-DotNet-Phase-2\Day6\NetCoreWebAppDemo\NetCoreWebAppDemo\obj\Debug\net8.0\NetCoreWebAppDemo.csproj.AssemblyReference.cache
+U:\BTECH_KIIT\Training\Wipro\Development\Wipro-Training-DotNet-Phase-2\Day6\NetCoreWebAppDemo\NetCoreWebAppDemo\obj\Debug\net8.0\NetCoreWebAppDemo.GeneratedMSBuildEditorConfig.editorconfig
+U:\BTECH_KIIT\Training\Wipro\Development\Wipro-Training-DotNet-Phase-2\Day6\NetCoreWebAppDemo\NetCoreWebAppDemo\obj\Debug\net8.0\NetCoreWebAppDemo.AssemblyInfoInputs.cache
+U:\BTECH_KIIT\Training\Wipro\Development\Wipro-Training-DotNet-Phase-2\Day6\NetCoreWebAppDemo\NetCoreWebAppDemo\obj\Debug\net8.0\NetCoreWebAppDemo.AssemblyInfo.cs
+U:\BTECH_KIIT\Training\Wipro\Development\Wipro-Training-DotNet-Phase-2\Day6\NetCoreWebAppDemo\NetCoreWebAppDemo\obj\Debug\net8.0\NetCoreWebAppDemo.csproj.CoreCompileInputs.cache
+U:\BTECH_KIIT\Training\Wipro\Development\Wipro-Training-DotNet-Phase-2\Day6\NetCoreWebAppDemo\NetCoreWebAppDemo\obj\Debug\net8.0\NetCoreWebAppDemo.sourcelink.json
