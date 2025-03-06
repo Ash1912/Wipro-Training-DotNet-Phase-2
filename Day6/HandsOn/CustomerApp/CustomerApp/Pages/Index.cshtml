@@ -1,0 +1,26 @@
+﻿@page
+@model CustomerApp.Pages.IndexModel
+
+<h2>Customers</h2>
+<a asp-page="Create">Create New</a>
+<table border="1">
+    <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>City</th>
+        <th>Actions</th>
+    </tr>
+    @foreach (var item in Model.Customers)
+    {
+        <tr>
+            <td>@item.CustomerID</td>
+            <td>@item.Name</td>
+            <td>@item.City</td>
+            <td>
+                <a asp-page="Edit" asp-route-id="@item.CustomerID">Edit</a> |
+                <a asp-page="Delete" asp-route-id="@item.CustomerID">Delete</a> |
+                <a asp-page="Details" asp-route-id="@item.CustomerID">Details</a>
+            </td>
+        </tr>
+    }
+</table>
