@@ -1,0 +1,7 @@
+Run the application in Visual Studio (Ctrl + F5).
+Open the browser and test these URLs:
+/ → Loads FirstController → Index1()
+/first/index2 → "This is Index2 from FirstController"
+/second/index3 → "This is Index3 from SecondController"
+/end → Terminates middleware and displays "Terminating request at /end"
+/hello → Displays "Hello from middleware!", then processes controllers

@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "U:\\BTECH_KIIT\\Training\\Wipro\\Development\\Wipro-Training-DotNet-Phase-2\\Day7\\HandsOn\\MvcApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D377C8F0-7611-4FF0-841A-2DA7F8DFD9DD}|MvcApp\\MvcApp.csproj|u:\\btech_kiit\\training\\wipro\\development\\wipro-training-dotnet-phase-2\\day7\\handson\\mvcapp\\mvcapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D377C8F0-7611-4FF0-841A-2DA7F8DFD9DD}|MvcApp\\MvcApp.csproj|solutionrelative:mvcapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D377C8F0-7611-4FF0-841A-2DA7F8DFD9DD}|MvcApp\\MvcApp.csproj|u:\\btech_kiit\\training\\wipro\\development\\wipro-training-dotnet-phase-2\\day7\\handson\\mvcapp\\mvcapp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D377C8F0-7611-4FF0-841A-2DA7F8DFD9DD}|MvcApp\\MvcApp.csproj|solutionrelative:mvcapp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D377C8F0-7611-4FF0-841A-2DA7F8DFD9DD}|MvcApp\\MvcApp.csproj|u:\\btech_kiit\\training\\wipro\\development\\wipro-training-dotnet-phase-2\\day7\\handson\\mvcapp\\mvcapp\\controllers\\secondcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D377C8F0-7611-4FF0-841A-2DA7F8DFD9DD}|MvcApp\\MvcApp.csproj|solutionrelative:mvcapp\\controllers\\secondcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D377C8F0-7611-4FF0-841A-2DA7F8DFD9DD}|MvcApp\\MvcApp.csproj|u:\\btech_kiit\\training\\wipro\\development\\wipro-training-dotnet-phase-2\\day7\\handson\\mvcapp\\mvcapp\\controllers\\firstcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D377C8F0-7611-4FF0-841A-2DA7F8DFD9DD}|MvcApp\\MvcApp.csproj|solutionrelative:mvcapp\\controllers\\firstcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "U:\\BTECH_KIIT\\Training\\Wipro\\Development\\Wipro-Training-DotNet-Phase-2\\Day7\\HandsOn\\MvcApp\\MvcApp\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "MvcApp\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "U:\\BTECH_KIIT\\Training\\Wipro\\Development\\Wipro-Training-DotNet-Phase-2\\Day7\\HandsOn\\MvcApp\\MvcApp\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "MvcApp\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAIwBwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-07T08:03:52.164Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "U:\\BTECH_KIIT\\Training\\Wipro\\Development\\Wipro-Training-DotNet-Phase-2\\Day7\\HandsOn\\MvcApp\\MvcApp\\Program.cs",
+              "RelativeDocumentMoniker": "MvcApp\\Program.cs",
+              "ToolTip": "U:\\BTECH_KIIT\\Training\\Wipro\\Development\\Wipro-Training-DotNet-Phase-2\\Day7\\HandsOn\\MvcApp\\MvcApp\\Program.cs",
+              "RelativeToolTip": "MvcApp\\Program.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAIwD4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-07T08:01:26.911Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SecondController.cs",
+              "DocumentMoniker": "U:\\BTECH_KIIT\\Training\\Wipro\\Development\\Wipro-Training-DotNet-Phase-2\\Day7\\HandsOn\\MvcApp\\MvcApp\\Controllers\\SecondController.cs",
+              "RelativeDocumentMoniker": "MvcApp\\Controllers\\SecondController.cs",
+              "ToolTip": "U:\\BTECH_KIIT\\Training\\Wipro\\Development\\Wipro-Training-DotNet-Phase-2\\Day7\\HandsOn\\MvcApp\\MvcApp\\Controllers\\SecondController.cs",
+              "RelativeToolTip": "MvcApp\\Controllers\\SecondController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAwBYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-07T08:00:35.68Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FirstController.cs",
+              "DocumentMoniker": "U:\\BTECH_KIIT\\Training\\Wipro\\Development\\Wipro-Training-DotNet-Phase-2\\Day7\\HandsOn\\MvcApp\\MvcApp\\Controllers\\FirstController.cs",
+              "RelativeDocumentMoniker": "MvcApp\\Controllers\\FirstController.cs",
+              "ToolTip": "U:\\BTECH_KIIT\\Training\\Wipro\\Development\\Wipro-Training-DotNet-Phase-2\\Day7\\HandsOn\\MvcApp\\MvcApp\\Controllers\\FirstController.cs",
+              "RelativeToolTip": "MvcApp\\Controllers\\FirstController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-07T07:59:27.179Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - MvcApp</title>
+    <link rel="stylesheet" href="~/css/site.css" />
+</head>
+<body>
+    <header>
+        <h1>Welcome to ASP.NET Core MVC</h1>
+        <nav>
+            <ul>
+                <li><a asp-controller="First" asp-action="Index1">First - Index1</a></li>
+                <li><a asp-controller="Second" asp-action="Index1">Second - Index1</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div>
+        @RenderBody()
+    </div>
+
+    <footer>
+        <p>© 2025 - MvcApp</p>
+    </footer>
+</body>
+</html>
