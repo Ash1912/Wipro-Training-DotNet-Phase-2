@@ -1,0 +1,17 @@
+﻿
+@{
+    ViewData["Title"] = "Second";
+}
+ 
+
+  <h1> List of users </h1>
+
+@{
+    <ul>
+    @foreach(var name in ViewBag.list)
+    {
+           <li> @name </li>
+    }
+    </ul>
+}
+

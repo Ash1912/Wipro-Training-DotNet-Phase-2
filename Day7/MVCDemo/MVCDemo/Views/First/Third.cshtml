@@ -1,0 +1,18 @@
+﻿@{
+    ViewData["Title"] = "Second";
+}
+
+
+<b> Value of rollno in Third actionmethod's view' is @TempData["rollno"]</b>
+
+<h1> List of users </h1>
+
+@{
+    <ul>
+        @foreach (var name in (List<string>)ViewData["list"])
+        {
+            <li> @name </li>
+        }
+    </ul>
+}
+

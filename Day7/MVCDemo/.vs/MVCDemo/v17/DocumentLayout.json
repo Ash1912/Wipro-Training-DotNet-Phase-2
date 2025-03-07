@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "U:\\BTECH_KIIT\\Training\\Wipro\\Development\\Wipro-Training-DotNet-Phase-2\\Day7\\MVCDemo\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1852DD3A-6BBE-4E5D-8E57-906D1D881D0A}|MVCDemo\\MVCDemo.csproj|u:\\btech_kiit\\training\\wipro\\development\\wipro-training-dotnet-phase-2\\day7\\mvcdemo\\mvcdemo\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1852DD3A-6BBE-4E5D-8E57-906D1D881D0A}|MVCDemo\\MVCDemo.csproj|solutionrelative:mvcdemo\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Student.cs",
+              "DocumentMoniker": "U:\\BTECH_KIIT\\Training\\Wipro\\Development\\Wipro-Training-DotNet-Phase-2\\Day7\\MVCDemo\\MVCDemo\\Models\\Student.cs",
+              "RelativeDocumentMoniker": "MVCDemo\\Models\\Student.cs",
+              "ToolTip": "U:\\BTECH_KIIT\\Training\\Wipro\\Development\\Wipro-Training-DotNet-Phase-2\\Day7\\MVCDemo\\MVCDemo\\Models\\Student.cs",
+              "RelativeToolTip": "MVCDemo\\Models\\Student.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-07T08:14:44.673Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
