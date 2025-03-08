@@ -1,0 +1,13 @@
+create database demoDb1
+
+use DemoDb1
+
+create table Employee (
+
+id int primary key,
+
+name varchar(20),
+
+dept varchar(20),
+
+salary float)
