@@ -1,0 +1,139 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "U:\\BTECH_KIIT\\Training\\Wipro\\Development\\Wipro-Training-DotNet-Phase-2\\Day8\\HandsOn\\AdoNetMvcApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AB27E438-04A2-4A0A-8C83-3122EE9786BA}|AdoNetMvcApp\\AdoNetMvcApp.csproj|u:\\btech_kiit\\training\\wipro\\development\\wipro-training-dotnet-phase-2\\day8\\handson\\adonetmvcapp\\adonetmvcapp\\data\\employeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB27E438-04A2-4A0A-8C83-3122EE9786BA}|AdoNetMvcApp\\AdoNetMvcApp.csproj|solutionrelative:adonetmvcapp\\data\\employeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB27E438-04A2-4A0A-8C83-3122EE9786BA}|AdoNetMvcApp\\AdoNetMvcApp.csproj|u:\\btech_kiit\\training\\wipro\\development\\wipro-training-dotnet-phase-2\\day8\\handson\\adonetmvcapp\\adonetmvcapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{AB27E438-04A2-4A0A-8C83-3122EE9786BA}|AdoNetMvcApp\\AdoNetMvcApp.csproj|solutionrelative:adonetmvcapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB27E438-04A2-4A0A-8C83-3122EE9786BA}|AdoNetMvcApp\\AdoNetMvcApp.csproj|u:\\btech_kiit\\training\\wipro\\development\\wipro-training-dotnet-phase-2\\day8\\handson\\adonetmvcapp\\adonetmvcapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB27E438-04A2-4A0A-8C83-3122EE9786BA}|AdoNetMvcApp\\AdoNetMvcApp.csproj|solutionrelative:adonetmvcapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB27E438-04A2-4A0A-8C83-3122EE9786BA}|AdoNetMvcApp\\AdoNetMvcApp.csproj|u:\\btech_kiit\\training\\wipro\\development\\wipro-training-dotnet-phase-2\\day8\\handson\\adonetmvcapp\\adonetmvcapp\\adonetmvcapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{AB27E438-04A2-4A0A-8C83-3122EE9786BA}|AdoNetMvcApp\\AdoNetMvcApp.csproj|solutionrelative:adonetmvcapp\\adonetmvcapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB27E438-04A2-4A0A-8C83-3122EE9786BA}|AdoNetMvcApp\\AdoNetMvcApp.csproj|u:\\btech_kiit\\training\\wipro\\development\\wipro-training-dotnet-phase-2\\day8\\handson\\adonetmvcapp\\adonetmvcapp\\views\\employee\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AB27E438-04A2-4A0A-8C83-3122EE9786BA}|AdoNetMvcApp\\AdoNetMvcApp.csproj|solutionrelative:adonetmvcapp\\views\\employee\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB27E438-04A2-4A0A-8C83-3122EE9786BA}|AdoNetMvcApp\\AdoNetMvcApp.csproj|u:\\btech_kiit\\training\\wipro\\development\\wipro-training-dotnet-phase-2\\day8\\handson\\adonetmvcapp\\adonetmvcapp\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB27E438-04A2-4A0A-8C83-3122EE9786BA}|AdoNetMvcApp\\AdoNetMvcApp.csproj|solutionrelative:adonetmvcapp\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB27E438-04A2-4A0A-8C83-3122EE9786BA}|AdoNetMvcApp\\AdoNetMvcApp.csproj|u:\\btech_kiit\\training\\wipro\\development\\wipro-training-dotnet-phase-2\\day8\\handson\\adonetmvcapp\\adonetmvcapp\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB27E438-04A2-4A0A-8C83-3122EE9786BA}|AdoNetMvcApp\\AdoNetMvcApp.csproj|solutionrelative:adonetmvcapp\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AdoNetMvcApp",
+              "DocumentMoniker": "U:\\BTECH_KIIT\\Training\\Wipro\\Development\\Wipro-Training-DotNet-Phase-2\\Day8\\HandsOn\\AdoNetMvcApp\\AdoNetMvcApp\\AdoNetMvcApp.csproj",
+              "RelativeDocumentMoniker": "AdoNetMvcApp\\AdoNetMvcApp.csproj",
+              "ToolTip": "U:\\BTECH_KIIT\\Training\\Wipro\\Development\\Wipro-Training-DotNet-Phase-2\\Day8\\HandsOn\\AdoNetMvcApp\\AdoNetMvcApp\\AdoNetMvcApp.csproj",
+              "RelativeToolTip": "AdoNetMvcApp\\AdoNetMvcApp.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-03-09T10:11:13.054Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "U:\\BTECH_KIIT\\Training\\Wipro\\Development\\Wipro-Training-DotNet-Phase-2\\Day8\\HandsOn\\AdoNetMvcApp\\AdoNetMvcApp\\Views\\Employee\\Index.cshtml",
+              "RelativeDocumentMoniker": "AdoNetMvcApp\\Views\\Employee\\Index.cshtml",
+              "ToolTip": "U:\\BTECH_KIIT\\Training\\Wipro\\Development\\Wipro-Training-DotNet-Phase-2\\Day8\\HandsOn\\AdoNetMvcApp\\AdoNetMvcApp\\Views\\Employee\\Index.cshtml",
+              "RelativeToolTip": "AdoNetMvcApp\\Views\\Employee\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-09T10:08:45.345Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "EmployeeController.cs",
+              "DocumentMoniker": "U:\\BTECH_KIIT\\Training\\Wipro\\Development\\Wipro-Training-DotNet-Phase-2\\Day8\\HandsOn\\AdoNetMvcApp\\AdoNetMvcApp\\Controllers\\EmployeeController.cs",
+              "RelativeDocumentMoniker": "AdoNetMvcApp\\Controllers\\EmployeeController.cs",
+              "ToolTip": "U:\\BTECH_KIIT\\Training\\Wipro\\Development\\Wipro-Training-DotNet-Phase-2\\Day8\\HandsOn\\AdoNetMvcApp\\AdoNetMvcApp\\Controllers\\EmployeeController.cs",
+              "RelativeToolTip": "AdoNetMvcApp\\Controllers\\EmployeeController.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAxwB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-09T10:07:59.874Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "U:\\BTECH_KIIT\\Training\\Wipro\\Development\\Wipro-Training-DotNet-Phase-2\\Day8\\HandsOn\\AdoNetMvcApp\\AdoNetMvcApp\\Program.cs",
+              "RelativeDocumentMoniker": "AdoNetMvcApp\\Program.cs",
+              "ToolTip": "U:\\BTECH_KIIT\\Training\\Wipro\\Development\\Wipro-Training-DotNet-Phase-2\\Day8\\HandsOn\\AdoNetMvcApp\\AdoNetMvcApp\\Program.cs",
+              "RelativeToolTip": "AdoNetMvcApp\\Program.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAACUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-09T10:07:10.623Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EmployeeRepository.cs",
+              "DocumentMoniker": "U:\\BTECH_KIIT\\Training\\Wipro\\Development\\Wipro-Training-DotNet-Phase-2\\Day8\\HandsOn\\AdoNetMvcApp\\AdoNetMvcApp\\Data\\EmployeeRepository.cs",
+              "RelativeDocumentMoniker": "AdoNetMvcApp\\Data\\EmployeeRepository.cs",
+              "ToolTip": "U:\\BTECH_KIIT\\Training\\Wipro\\Development\\Wipro-Training-DotNet-Phase-2\\Day8\\HandsOn\\AdoNetMvcApp\\AdoNetMvcApp\\Data\\EmployeeRepository.cs",
+              "RelativeToolTip": "AdoNetMvcApp\\Data\\EmployeeRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADIAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-09T10:05:59.509Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "U:\\BTECH_KIIT\\Training\\Wipro\\Development\\Wipro-Training-DotNet-Phase-2\\Day8\\HandsOn\\AdoNetMvcApp\\AdoNetMvcApp\\Models\\Employee.cs",
+              "RelativeDocumentMoniker": "AdoNetMvcApp\\Models\\Employee.cs",
+              "ToolTip": "U:\\BTECH_KIIT\\Training\\Wipro\\Development\\Wipro-Training-DotNet-Phase-2\\Day8\\HandsOn\\AdoNetMvcApp\\AdoNetMvcApp\\Models\\Employee.cs",
+              "RelativeToolTip": "AdoNetMvcApp\\Models\\Employee.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-09T10:05:09.427Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "U:\\BTECH_KIIT\\Training\\Wipro\\Development\\Wipro-Training-DotNet-Phase-2\\Day8\\HandsOn\\AdoNetMvcApp\\AdoNetMvcApp\\appsettings.json",
+              "RelativeDocumentMoniker": "AdoNetMvcApp\\appsettings.json",
+              "ToolTip": "U:\\BTECH_KIIT\\Training\\Wipro\\Development\\Wipro-Training-DotNet-Phase-2\\Day8\\HandsOn\\AdoNetMvcApp\\AdoNetMvcApp\\appsettings.json",
+              "RelativeToolTip": "AdoNetMvcApp\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-09T10:03:51.694Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

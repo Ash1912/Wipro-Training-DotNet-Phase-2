@@ -1,0 +1,15 @@
+To use ADO .Net
+
+1. Connected 2. Disconnected
+
+Steps :
+
+In backend
+
+1. Create database & table also in database.
+2. Install packages
+3. Create SqlConnection class object, this contains connectionString.
+4. Create SqlCommand object, which takes 2 para connection object, command that you want to execute.
+5. Open connection
+6. Execute the command
+7. Close the connection. 
