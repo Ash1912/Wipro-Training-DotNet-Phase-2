@@ -1,0 +1,21 @@
+Make a React Application to perform CRUD operation on Task Entity
+
+Take Task Array with Taskld, TaskName, Description, Date, Created By USer initial state of Task is blank Array
+
+Create different Component for List of Tasks (Home Page) with Add New Task which takes you to AddTask Component
+
+In List
+
+Task ID Task Name Description Date To be performed on Task CreatedBy
+
+1       task1   this is new task 12/03/2025             Deepak        Edit Delete
+
+Here Edit & Delete Links shall take you to EditTask & DeleteTask Component
+
+we have to use Routing
+
+Attempt using
+
+1. Redux (slice)
+
+2. useReducer

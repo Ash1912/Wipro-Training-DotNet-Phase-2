@@ -1,0 +1,1 @@
+Use database with EF using code first approach. Create a Web Api for performing operations on Batch Entity BatchId int primary key, Name, StartDate date, Seats int, CreatedBy int, CreatedOn date, UpdatedBy int, UpdatedOn date, IsActive Boolean.

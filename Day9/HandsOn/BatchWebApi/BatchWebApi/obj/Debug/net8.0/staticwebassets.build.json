@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "Ck+NiyfuLxqF3V62LVGTPH8XH2SA57fdKAiQSoxQc4E=",
+  "Source": "BatchWebApi",
+  "BasePath": "_content/BatchWebApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
