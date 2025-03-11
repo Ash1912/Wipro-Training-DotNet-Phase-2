@@ -3,24 +3,24 @@
   "WorkspaceRootPath": "U:\\BTECH_KIIT\\Training\\Wipro\\Development\\Wipro-Training-DotNet-Phase-2\\Day10\\BatchWebApiAuthentication\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|U:\\BTECH_KIIT\\Training\\Wipro\\Development\\Wipro-Training-DotNet-Phase-2\\Day10\\BatchWebApiAuthentication\\BatchWebApiAuthentication\\Migrations\\20250311064448_userrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BatchWebApiAuthentication\\Migrations\\20250311064448_userrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|U:\\BTECH_KIIT\\Training\\Wipro\\Development\\Wipro-Training-DotNet-Phase-2\\Day10\\BatchWebApiAuthentication\\BatchWebApiAuthentication\\Migrations\\20250311114401_updates.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BatchWebApiAuthentication\\Migrations\\20250311114401_updates.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A42DFC92-73D0-426B-806B-ABD1F8DC4D33}|BatchWebApiAuthentication\\BatchWebApiAuthentication.csproj|u:\\btech_kiit\\training\\wipro\\development\\wipro-training-dotnet-phase-2\\day10\\batchwebapiauthentication\\batchwebapiauthentication\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{A42DFC92-73D0-426B-806B-ABD1F8DC4D33}|BatchWebApiAuthentication\\BatchWebApiAuthentication.csproj|solutionrelative:batchwebapiauthentication\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{A42DFC92-73D0-426B-806B-ABD1F8DC4D33}|BatchWebApiAuthentication\\BatchWebApiAuthentication.csproj|u:\\btech_kiit\\training\\wipro\\development\\wipro-training-dotnet-phase-2\\day10\\batchwebapiauthentication\\batchwebapiauthentication\\batchwebapiauthentication.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{A42DFC92-73D0-426B-806B-ABD1F8DC4D33}|BatchWebApiAuthentication\\BatchWebApiAuthentication.csproj|solutionrelative:batchwebapiauthentication\\batchwebapiauthentication.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A42DFC92-73D0-426B-806B-ABD1F8DC4D33}|BatchWebApiAuthentication\\BatchWebApiAuthentication.csproj|u:\\btech_kiit\\training\\wipro\\development\\wipro-training-dotnet-phase-2\\day10\\batchwebapiauthentication\\batchwebapiauthentication\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A42DFC92-73D0-426B-806B-ABD1F8DC4D33}|BatchWebApiAuthentication\\BatchWebApiAuthentication.csproj|solutionrelative:batchwebapiauthentication\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|U:\\BTECH_KIIT\\Training\\Wipro\\Development\\Wipro-Training-DotNet-Phase-2\\Day10\\BatchWebApiAuthentication\\BatchWebApiAuthentication\\Migrations\\20250311064345_userrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BatchWebApiAuthentication\\Migrations\\20250311064345_userrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A42DFC92-73D0-426B-806B-ABD1F8DC4D33}|BatchWebApiAuthentication\\BatchWebApiAuthentication.csproj|u:\\btech_kiit\\training\\wipro\\development\\wipro-training-dotnet-phase-2\\day10\\batchwebapiauthentication\\batchwebapiauthentication\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A42DFC92-73D0-426B-806B-ABD1F8DC4D33}|BatchWebApiAuthentication\\BatchWebApiAuthentication.csproj|solutionrelative:batchwebapiauthentication\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A42DFC92-73D0-426B-806B-ABD1F8DC4D33}|BatchWebApiAuthentication\\BatchWebApiAuthentication.csproj|u:\\btech_kiit\\training\\wipro\\development\\wipro-training-dotnet-phase-2\\day10\\batchwebapiauthentication\\batchwebapiauthentication\\controllers\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A42DFC92-73D0-426B-806B-ABD1F8DC4D33}|BatchWebApiAuthentication\\BatchWebApiAuthentication.csproj|solutionrelative:batchwebapiauthentication\\controllers\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A42DFC92-73D0-426B-806B-ABD1F8DC4D33}|BatchWebApiAuthentication\\BatchWebApiAuthentication.csproj|u:\\btech_kiit\\training\\wipro\\development\\wipro-training-dotnet-phase-2\\day10\\batchwebapiauthentication\\batchwebapiauthentication\\controllers\\batchcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -31,16 +31,32 @@
       "RelativeMoniker": "D:0:0:{A42DFC92-73D0-426B-806B-ABD1F8DC4D33}|BatchWebApiAuthentication\\BatchWebApiAuthentication.csproj|solutionrelative:batchwebapiauthentication\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{A42DFC92-73D0-426B-806B-ABD1F8DC4D33}|BatchWebApiAuthentication\\BatchWebApiAuthentication.csproj|u:\\btech_kiit\\training\\wipro\\development\\wipro-training-dotnet-phase-2\\day10\\batchwebapiauthentication\\batchwebapiauthentication\\viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A42DFC92-73D0-426B-806B-ABD1F8DC4D33}|BatchWebApiAuthentication\\BatchWebApiAuthentication.csproj|solutionrelative:batchwebapiauthentication\\viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A42DFC92-73D0-426B-806B-ABD1F8DC4D33}|BatchWebApiAuthentication\\BatchWebApiAuthentication.csproj|u:\\btech_kiit\\training\\wipro\\development\\wipro-training-dotnet-phase-2\\day10\\batchwebapiauthentication\\batchwebapiauthentication\\context\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A42DFC92-73D0-426B-806B-ABD1F8DC4D33}|BatchWebApiAuthentication\\BatchWebApiAuthentication.csproj|solutionrelative:batchwebapiauthentication\\context\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A42DFC92-73D0-426B-806B-ABD1F8DC4D33}|BatchWebApiAuthentication\\BatchWebApiAuthentication.csproj|u:\\btech_kiit\\training\\wipro\\development\\wipro-training-dotnet-phase-2\\day10\\batchwebapiauthentication\\batchwebapiauthentication\\migrations\\20250311064448_userrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A42DFC92-73D0-426B-806B-ABD1F8DC4D33}|BatchWebApiAuthentication\\BatchWebApiAuthentication.csproj|solutionrelative:batchwebapiauthentication\\migrations\\20250311064448_userrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|U:\\BTECH_KIIT\\Training\\Wipro\\Development\\Wipro-Training-DotNet-Phase-2\\Day10\\BatchWebApiAuthentication\\BatchWebApiAuthentication\\Migrations\\20250311064345_userrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BatchWebApiAuthentication\\Migrations\\20250311064345_userrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A42DFC92-73D0-426B-806B-ABD1F8DC4D33}|BatchWebApiAuthentication\\BatchWebApiAuthentication.csproj|u:\\btech_kiit\\training\\wipro\\development\\wipro-training-dotnet-phase-2\\day10\\batchwebapiauthentication\\batchwebapiauthentication\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A42DFC92-73D0-426B-806B-ABD1F8DC4D33}|BatchWebApiAuthentication\\BatchWebApiAuthentication.csproj|solutionrelative:batchwebapiauthentication\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A42DFC92-73D0-426B-806B-ABD1F8DC4D33}|BatchWebApiAuthentication\\BatchWebApiAuthentication.csproj|u:\\btech_kiit\\training\\wipro\\development\\wipro-training-dotnet-phase-2\\day10\\batchwebapiauthentication\\batchwebapiauthentication\\models\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A42DFC92-73D0-426B-806B-ABD1F8DC4D33}|BatchWebApiAuthentication\\BatchWebApiAuthentication.csproj|solutionrelative:batchwebapiauthentication\\models\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A42DFC92-73D0-426B-806B-ABD1F8DC4D33}|BatchWebApiAuthentication\\BatchWebApiAuthentication.csproj|u:\\btech_kiit\\training\\wipro\\development\\wipro-training-dotnet-phase-2\\day10\\batchwebapiauthentication\\batchwebapiauthentication\\models\\batch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A42DFC92-73D0-426B-806B-ABD1F8DC4D33}|BatchWebApiAuthentication\\BatchWebApiAuthentication.csproj|solutionrelative:batchwebapiauthentication\\models\\batch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A42DFC92-73D0-426B-806B-ABD1F8DC4D33}|BatchWebApiAuthentication\\BatchWebApiAuthentication.csproj|u:\\btech_kiit\\training\\wipro\\development\\wipro-training-dotnet-phase-2\\day10\\batchwebapiauthentication\\batchwebapiauthentication\\context\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A42DFC92-73D0-426B-806B-ABD1F8DC4D33}|BatchWebApiAuthentication\\BatchWebApiAuthentication.csproj|solutionrelative:batchwebapiauthentication\\context\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -55,27 +71,66 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "20250311064448_userrole.cs",
-              "DocumentMoniker": "U:\\BTECH_KIIT\\Training\\Wipro\\Development\\Wipro-Training-DotNet-Phase-2\\Day10\\BatchWebApiAuthentication\\BatchWebApiAuthentication\\Migrations\\20250311064448_userrole.cs",
-              "RelativeDocumentMoniker": "BatchWebApiAuthentication\\Migrations\\20250311064448_userrole.cs",
-              "ToolTip": "U:\\BTECH_KIIT\\Training\\Wipro\\Development\\Wipro-Training-DotNet-Phase-2\\Day10\\BatchWebApiAuthentication\\BatchWebApiAuthentication\\Migrations\\20250311064448_userrole.cs",
-              "RelativeToolTip": "BatchWebApiAuthentication\\Migrations\\20250311064448_userrole.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAaAAAAAAAAAA==",
+              "Title": "20250311114401_updates.cs",
+              "DocumentMoniker": "U:\\BTECH_KIIT\\Training\\Wipro\\Development\\Wipro-Training-DotNet-Phase-2\\Day10\\BatchWebApiAuthentication\\BatchWebApiAuthentication\\Migrations\\20250311114401_updates.cs",
+              "RelativeDocumentMoniker": "BatchWebApiAuthentication\\Migrations\\20250311114401_updates.cs",
+              "ToolTip": "U:\\BTECH_KIIT\\Training\\Wipro\\Development\\Wipro-Training-DotNet-Phase-2\\Day10\\BatchWebApiAuthentication\\BatchWebApiAuthentication\\Migrations\\20250311114401_updates.cs",
+              "RelativeToolTip": "BatchWebApiAuthentication\\Migrations\\20250311114401_updates.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-11T06:44:48.94Z",
+              "WhenOpened": "2025-03-11T11:44:01.667Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "20250311064345_userrole.cs",
-              "DocumentMoniker": "U:\\BTECH_KIIT\\Training\\Wipro\\Development\\Wipro-Training-DotNet-Phase-2\\Day10\\BatchWebApiAuthentication\\BatchWebApiAuthentication\\Migrations\\20250311064345_userrole.cs",
-              "RelativeDocumentMoniker": "BatchWebApiAuthentication\\Migrations\\20250311064345_userrole.cs",
-              "ToolTip": "U:\\BTECH_KIIT\\Training\\Wipro\\Development\\Wipro-Training-DotNet-Phase-2\\Day10\\BatchWebApiAuthentication\\BatchWebApiAuthentication\\Migrations\\20250311064345_userrole.cs",
-              "RelativeToolTip": "BatchWebApiAuthentication\\Migrations\\20250311064345_userrole.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "BatchWebApiAuthentication",
+              "DocumentMoniker": "U:\\BTECH_KIIT\\Training\\Wipro\\Development\\Wipro-Training-DotNet-Phase-2\\Day10\\BatchWebApiAuthentication\\BatchWebApiAuthentication\\BatchWebApiAuthentication.csproj",
+              "RelativeDocumentMoniker": "BatchWebApiAuthentication\\BatchWebApiAuthentication.csproj",
+              "ToolTip": "U:\\BTECH_KIIT\\Training\\Wipro\\Development\\Wipro-Training-DotNet-Phase-2\\Day10\\BatchWebApiAuthentication\\BatchWebApiAuthentication\\BatchWebApiAuthentication.csproj",
+              "RelativeToolTip": "BatchWebApiAuthentication\\BatchWebApiAuthentication.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-03-11T11:38:59.954Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AuthenticationController.cs",
+              "DocumentMoniker": "U:\\BTECH_KIIT\\Training\\Wipro\\Development\\Wipro-Training-DotNet-Phase-2\\Day10\\BatchWebApiAuthentication\\BatchWebApiAuthentication\\Controllers\\AuthenticationController.cs",
+              "RelativeDocumentMoniker": "BatchWebApiAuthentication\\Controllers\\AuthenticationController.cs",
+              "ToolTip": "U:\\BTECH_KIIT\\Training\\Wipro\\Development\\Wipro-Training-DotNet-Phase-2\\Day10\\BatchWebApiAuthentication\\BatchWebApiAuthentication\\Controllers\\AuthenticationController.cs",
+              "RelativeToolTip": "BatchWebApiAuthentication\\Controllers\\AuthenticationController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGEAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-11T06:43:45.618Z",
+              "WhenOpened": "2025-03-11T11:33:55.992Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "User.cs",
+              "DocumentMoniker": "U:\\BTECH_KIIT\\Training\\Wipro\\Development\\Wipro-Training-DotNet-Phase-2\\Day10\\BatchWebApiAuthentication\\BatchWebApiAuthentication\\Models\\User.cs",
+              "RelativeDocumentMoniker": "BatchWebApiAuthentication\\Models\\User.cs",
+              "ToolTip": "U:\\BTECH_KIIT\\Training\\Wipro\\Development\\Wipro-Training-DotNet-Phase-2\\Day10\\BatchWebApiAuthentication\\BatchWebApiAuthentication\\Models\\User.cs",
+              "RelativeToolTip": "BatchWebApiAuthentication\\Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T06:34:29.316Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "BatchController.cs",
+              "DocumentMoniker": "U:\\BTECH_KIIT\\Training\\Wipro\\Development\\Wipro-Training-DotNet-Phase-2\\Day10\\BatchWebApiAuthentication\\BatchWebApiAuthentication\\Controllers\\BatchController.cs",
+              "RelativeDocumentMoniker": "BatchWebApiAuthentication\\Controllers\\BatchController.cs",
+              "ToolTip": "U:\\BTECH_KIIT\\Training\\Wipro\\Development\\Wipro-Training-DotNet-Phase-2\\Day10\\BatchWebApiAuthentication\\BatchWebApiAuthentication\\Controllers\\BatchController.cs",
+              "RelativeToolTip": "BatchWebApiAuthentication\\Controllers\\BatchController.cs",
+              "ViewState": "AgIAADcAAAAAAAAAAAAkwAkAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T06:36:11.391Z",
               "EditorCaption": ""
             },
             {
@@ -86,14 +141,53 @@
               "RelativeDocumentMoniker": "BatchWebApiAuthentication\\appsettings.json",
               "ToolTip": "U:\\BTECH_KIIT\\Training\\Wipro\\Development\\Wipro-Training-DotNet-Phase-2\\Day10\\BatchWebApiAuthentication\\BatchWebApiAuthentication\\appsettings.json",
               "RelativeToolTip": "BatchWebApiAuthentication\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABDAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2025-03-11T06:38:15.247Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "U:\\BTECH_KIIT\\Training\\Wipro\\Development\\Wipro-Training-DotNet-Phase-2\\Day10\\BatchWebApiAuthentication\\BatchWebApiAuthentication\\Program.cs",
+              "RelativeDocumentMoniker": "BatchWebApiAuthentication\\Program.cs",
+              "ToolTip": "U:\\BTECH_KIIT\\Training\\Wipro\\Development\\Wipro-Training-DotNet-Phase-2\\Day10\\BatchWebApiAuthentication\\BatchWebApiAuthentication\\Program.cs",
+              "RelativeToolTip": "BatchWebApiAuthentication\\Program.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T06:31:21.942Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "LoginViewModel.cs",
+              "DocumentMoniker": "U:\\BTECH_KIIT\\Training\\Wipro\\Development\\Wipro-Training-DotNet-Phase-2\\Day10\\BatchWebApiAuthentication\\BatchWebApiAuthentication\\ViewModels\\LoginViewModel.cs",
+              "RelativeDocumentMoniker": "BatchWebApiAuthentication\\ViewModels\\LoginViewModel.cs",
+              "ToolTip": "U:\\BTECH_KIIT\\Training\\Wipro\\Development\\Wipro-Training-DotNet-Phase-2\\Day10\\BatchWebApiAuthentication\\BatchWebApiAuthentication\\ViewModels\\LoginViewModel.cs",
+              "RelativeToolTip": "BatchWebApiAuthentication\\ViewModels\\LoginViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T11:37:20.32Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "20250311064448_userrole.cs",
+              "DocumentMoniker": "U:\\BTECH_KIIT\\Training\\Wipro\\Development\\Wipro-Training-DotNet-Phase-2\\Day10\\BatchWebApiAuthentication\\BatchWebApiAuthentication\\Migrations\\20250311064448_userrole.cs",
+              "RelativeDocumentMoniker": "BatchWebApiAuthentication\\Migrations\\20250311064448_userrole.cs",
+              "ToolTip": "U:\\BTECH_KIIT\\Training\\Wipro\\Development\\Wipro-Training-DotNet-Phase-2\\Day10\\BatchWebApiAuthentication\\BatchWebApiAuthentication\\Migrations\\20250311064448_userrole.cs",
+              "RelativeToolTip": "BatchWebApiAuthentication\\Migrations\\20250311064448_userrole.cs",
+              "ViewState": "AgIAAEwAAAAAAAAAAAAuwAwAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T06:44:48.94Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "UsersController.cs",
               "DocumentMoniker": "U:\\BTECH_KIIT\\Training\\Wipro\\Development\\Wipro-Training-DotNet-Phase-2\\Day10\\BatchWebApiAuthentication\\BatchWebApiAuthentication\\Controllers\\UsersController.cs",
               "RelativeDocumentMoniker": "BatchWebApiAuthentication\\Controllers\\UsersController.cs",
@@ -106,33 +200,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "BatchController.cs",
-              "DocumentMoniker": "U:\\BTECH_KIIT\\Training\\Wipro\\Development\\Wipro-Training-DotNet-Phase-2\\Day10\\BatchWebApiAuthentication\\BatchWebApiAuthentication\\Controllers\\BatchController.cs",
-              "RelativeDocumentMoniker": "BatchWebApiAuthentication\\Controllers\\BatchController.cs",
-              "ToolTip": "U:\\BTECH_KIIT\\Training\\Wipro\\Development\\Wipro-Training-DotNet-Phase-2\\Day10\\BatchWebApiAuthentication\\BatchWebApiAuthentication\\Controllers\\BatchController.cs",
-              "RelativeToolTip": "BatchWebApiAuthentication\\Controllers\\BatchController.cs",
-              "ViewState": "AgIAAE8AAAAAAAAAAAAAwFgAAABFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-11T06:36:11.391Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "User.cs",
-              "DocumentMoniker": "U:\\BTECH_KIIT\\Training\\Wipro\\Development\\Wipro-Training-DotNet-Phase-2\\Day10\\BatchWebApiAuthentication\\BatchWebApiAuthentication\\Models\\User.cs",
-              "RelativeDocumentMoniker": "BatchWebApiAuthentication\\Models\\User.cs",
-              "ToolTip": "U:\\BTECH_KIIT\\Training\\Wipro\\Development\\Wipro-Training-DotNet-Phase-2\\Day10\\BatchWebApiAuthentication\\BatchWebApiAuthentication\\Models\\User.cs",
-              "RelativeToolTip": "BatchWebApiAuthentication\\Models\\User.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAwwBoAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-11T06:34:29.316Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 12,
               "Title": "Role.cs",
               "DocumentMoniker": "U:\\BTECH_KIIT\\Training\\Wipro\\Development\\Wipro-Training-DotNet-Phase-2\\Day10\\BatchWebApiAuthentication\\BatchWebApiAuthentication\\Models\\Role.cs",
               "RelativeDocumentMoniker": "BatchWebApiAuthentication\\Models\\Role.cs",
@@ -145,42 +213,40 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 13,
               "Title": "Batch.cs",
               "DocumentMoniker": "U:\\BTECH_KIIT\\Training\\Wipro\\Development\\Wipro-Training-DotNet-Phase-2\\Day10\\BatchWebApiAuthentication\\BatchWebApiAuthentication\\Models\\Batch.cs",
               "RelativeDocumentMoniker": "BatchWebApiAuthentication\\Models\\Batch.cs",
               "ToolTip": "U:\\BTECH_KIIT\\Training\\Wipro\\Development\\Wipro-Training-DotNet-Phase-2\\Day10\\BatchWebApiAuthentication\\BatchWebApiAuthentication\\Models\\Batch.cs",
               "RelativeToolTip": "BatchWebApiAuthentication\\Models\\Batch.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAswBEAAABGAAAAAAAAAA==",
+              "ViewState": "AgIAAA4AAAAAAAAAAAA9wBEAAABGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-11T06:33:32.863Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "U:\\BTECH_KIIT\\Training\\Wipro\\Development\\Wipro-Training-DotNet-Phase-2\\Day10\\BatchWebApiAuthentication\\BatchWebApiAuthentication\\Program.cs",
-              "RelativeDocumentMoniker": "BatchWebApiAuthentication\\Program.cs",
-              "ToolTip": "U:\\BTECH_KIIT\\Training\\Wipro\\Development\\Wipro-Training-DotNet-Phase-2\\Day10\\BatchWebApiAuthentication\\BatchWebApiAuthentication\\Program.cs",
-              "RelativeToolTip": "BatchWebApiAuthentication\\Program.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAQwCUAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-11T06:31:21.942Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 8,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "U:\\BTECH_KIIT\\Training\\Wipro\\Development\\Wipro-Training-DotNet-Phase-2\\Day10\\BatchWebApiAuthentication\\BatchWebApiAuthentication\\Context\\AppDbContext.cs",
               "RelativeDocumentMoniker": "BatchWebApiAuthentication\\Context\\AppDbContext.cs",
               "ToolTip": "U:\\BTECH_KIIT\\Training\\Wipro\\Development\\Wipro-Training-DotNet-Phase-2\\Day10\\BatchWebApiAuthentication\\BatchWebApiAuthentication\\Context\\AppDbContext.cs",
               "RelativeToolTip": "BatchWebApiAuthentication\\Context\\AppDbContext.cs",
-              "ViewState": "AgIAADMAAAAAAAAAAAAAADAAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAACQAAAAAAAAAAAAowAwAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-11T06:32:37.149Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "20250311064345_userrole.cs",
+              "DocumentMoniker": "U:\\BTECH_KIIT\\Training\\Wipro\\Development\\Wipro-Training-DotNet-Phase-2\\Day10\\BatchWebApiAuthentication\\BatchWebApiAuthentication\\Migrations\\20250311064345_userrole.cs",
+              "RelativeDocumentMoniker": "BatchWebApiAuthentication\\Migrations\\20250311064345_userrole.cs",
+              "ToolTip": "U:\\BTECH_KIIT\\Training\\Wipro\\Development\\Wipro-Training-DotNet-Phase-2\\Day10\\BatchWebApiAuthentication\\BatchWebApiAuthentication\\Migrations\\20250311064345_userrole.cs",
+              "RelativeToolTip": "BatchWebApiAuthentication\\Migrations\\20250311064345_userrole.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T06:43:45.618Z"
             }
           ]
         }

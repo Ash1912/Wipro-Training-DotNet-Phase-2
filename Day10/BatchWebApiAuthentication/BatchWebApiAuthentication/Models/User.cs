@@ -27,3 +27,6 @@ namespace BatchWebApiAuthentication.Models
         public User? Manager { get; set; }
     }
 }
+
+// Model > Actual domain
+// ViewModel > what you want to view / access , not part of database

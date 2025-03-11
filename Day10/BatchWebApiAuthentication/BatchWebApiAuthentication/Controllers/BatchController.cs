@@ -1,11 +1,13 @@
 ﻿using BatchWebApiAuthentication.Context;
 using BatchWebApiAuthentication.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace BatchWebApiAuthentication.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    //[Authorize]
     public class BatchController : ControllerBase
     {
         AppDbContext _context;
@@ -14,6 +16,7 @@ namespace BatchWebApiAuthentication.Controllers
             _context = context;
         }
         [HttpGet]
+        [Authorize]
         public IActionResult Get()
         {
             List<Batch> batches = _context.Batches.Where(x => x.IsActive == true).ToList();
@@ -24,6 +27,7 @@ namespace BatchWebApiAuthentication.Controllers
         }
 
         [HttpGet("{id}")]
+        [Authorize]
         public IActionResult GetById(int id)
         {
             Batch batch = _context.Batches.FirstOrDefault(x => x.BatchId == id && x.IsActive == true);
@@ -35,7 +39,7 @@ namespace BatchWebApiAuthentication.Controllers
 
 
         [HttpPost]
-
+        [Authorize(Roles = "Admin")]
         public IActionResult Create(Batch batch)
         {
             batch.CreatedBy = 100;
@@ -46,7 +50,10 @@ namespace BatchWebApiAuthentication.Controllers
             return Created("records added", batch);
         }
 
+        [Authorize(Roles = "Admin")]
+
         [HttpDelete("{id}")]
+
         public IActionResult Delete(int id)
         {
             Batch batch = _context.Batches.FirstOrDefault(x => x.BatchId == id
@@ -65,6 +72,7 @@ namespace BatchWebApiAuthentication.Controllers
         }
 
         [HttpPut("{id}")]
+        [Authorize(Roles = "Admin")]
         public IActionResult Edit(int id, Batch batch)
         {
             Batch obj = _context.Batches.FirstOrDefault(x => x.BatchId == id

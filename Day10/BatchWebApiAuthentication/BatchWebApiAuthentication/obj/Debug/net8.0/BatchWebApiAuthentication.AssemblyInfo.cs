@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BatchWebApiAuthentication")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+00fda27240daebb36a2afc61dbf47d66e4e8b223")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+13b65fc34eab1a6be036e15c8f8160072018ddd9")]
 [assembly: System.Reflection.AssemblyProductAttribute("BatchWebApiAuthentication")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BatchWebApiAuthentication")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

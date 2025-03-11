@@ -287,3 +287,4 @@ U:\BTECH_KIIT\Training\Wipro\Development\Wipro-Training-DotNet-Phase-2\Day10\Bat
 U:\BTECH_KIIT\Training\Wipro\Development\Wipro-Training-DotNet-Phase-2\Day10\BatchWebApiAuthentication\BatchWebApiAuthentication\obj\Debug\net8.0\BatchWebApiAuthentication.pdb
 U:\BTECH_KIIT\Training\Wipro\Development\Wipro-Training-DotNet-Phase-2\Day10\BatchWebApiAuthentication\BatchWebApiAuthentication\obj\Debug\net8.0\BatchWebApiAuthentication.genruntimeconfig.cache
 U:\BTECH_KIIT\Training\Wipro\Development\Wipro-Training-DotNet-Phase-2\Day10\BatchWebApiAuthentication\BatchWebApiAuthentication\obj\Debug\net8.0\ref\BatchWebApiAuthentication.dll
+U:\BTECH_KIIT\Training\Wipro\Development\Wipro-Training-DotNet-Phase-2\Day10\BatchWebApiAuthentication\BatchWebApiAuthentication\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
