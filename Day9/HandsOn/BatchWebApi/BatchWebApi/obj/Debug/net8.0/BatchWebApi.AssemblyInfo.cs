@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BatchWebApi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+12351f8d3bf05263c2f680cb67cef036d5b7ec97")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+00fda27240daebb36a2afc61dbf47d66e4e8b223")]
 [assembly: System.Reflection.AssemblyProductAttribute("BatchWebApi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BatchWebApi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "zPOPBC5mdgqu2K46yiQWGA7bJViTOU41FYk9o5j9H+U=",
+  "Source": "BatchWebApiAuthentication",
+  "BasePath": "_content/BatchWebApiAuthentication",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
