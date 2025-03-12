@@ -1,0 +1,55 @@
+/* Center the login container with a background gradient */
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #ece9e6, #ffffff); /* Soft gradient */
+  }
+  
+  /* Form styling with a cleaner design */
+  .login-container form {
+    background: white;
+    padding: 40px;
+    border-radius: 8px; /* Slightly more rounded corners */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    width: 100%;
+    max-width: 400px; /* Limit max width for form */
+  }
+  
+  /* Input fields with more spacing and border adjustments */
+  .login-container input {
+    display: block;
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 12px;
+    border: 1px solid #ddd; /* Lighter border */
+    border-radius: 8px; /* Match form border radius */
+    font-size: 14px; /* Slightly larger text */
+    transition: border-color 0.3s ease; /* Smooth border color transition */
+  }
+  
+  .login-container input:focus {
+    border-color: #4caf50; /* Focused input border color */
+    outline: none; /* Remove default outline */
+  }
+  
+  /* Button styling with hover effect */
+  .login-container button {
+    width: 100%;
+    padding: 12px;
+    background: #4caf50; /* Green color */
+    color: white;
+    border: none;
+    border-radius: 8px; /* Match form and input border radius */
+    font-size: 16px; /* Larger button text */
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Smooth hover transition */
+  }
+  
+  /* Darker green on hover */
+  .login-container button:hover {
+    background: #388e3c;
+  }
+  
+  

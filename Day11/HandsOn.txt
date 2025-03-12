@@ -1,0 +1,13 @@
+In the same React Application,
+
+1. try to call Batch Service after Authentication has been added in service, error shud come
+
+2. Create a Login Component which will call Authentication Service, token should be retuned and received in login component, check that token in console
+
+3. based on whether token is received or not, display Login & Logout button (conditional rendering)
+
+I
+
+For your final project, you can create Login component which will call AUTH service, display login logout button based on token availability
+
+Create User component/s for CRUD operations

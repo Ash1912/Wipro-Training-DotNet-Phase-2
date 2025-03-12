@@ -74,6 +74,7 @@ namespace BatchWebApiAuthentication.Controllers
         [HttpPost]
         public async Task<ActionResult<User>> PostUser(User user)
         {
+            Console.WriteLine($"Received User: {user.Email}, {user.FirstName}, {user.LastName}");
             _context.Users.Add(user);
             await _context.SaveChangesAsync();
 
