@@ -5,7 +5,7 @@
     "version": "v1"
   },
   "paths": {
-    "/api/Authentication": {
+    "/api/Authentication/login": {
       "post": {
         "tags": [
           "Authentication"

@@ -139,8 +139,7 @@ namespace BatchWebApiAuthentication.Migrations
                             Email = "admin@gmail.com",
                             FirstName = "Deepak",
                             LastName = "Kumar",
-                            ManagerId = 1,
-                            Password = "pass@123",
+                            Password = "$2a$11$OboJOx2iJf9MHUVzRuQWDOa0j0aQ7PavNrt2RSjXWL6hYE4Fh7zKe",
                             RoleId = 1
                         },
                         new
@@ -150,7 +149,7 @@ namespace BatchWebApiAuthentication.Migrations
                             FirstName = "Ajay",
                             LastName = "Kumar",
                             ManagerId = 1,
-                            Password = "pass@123",
+                            Password = "$2a$11$7vOBIT3fqYUyQGHQEn/pLO.bkwvZ7tRulMXggya6CZNAUbLaV35ia",
                             RoleId = 2
                         });
                 });

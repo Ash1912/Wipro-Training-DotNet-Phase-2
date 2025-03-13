@@ -2,7 +2,7 @@ import api from "./api";
 
 export const login = async (credentials) => {
   try {
-    const response = await api.post("/Authentication", credentials);
+    const response = await api.post("/Authentication/login", credentials);
     const { token } = response.data;
     
     // Store token in localStorage

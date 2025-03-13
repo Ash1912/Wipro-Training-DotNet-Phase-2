@@ -2,7 +2,7 @@
   {
     "ContainingType": "BatchWebApiAuthentication.Controllers.AuthenticationController",
     "Method": "Login",
-    "RelativePath": "api/Authentication",
+    "RelativePath": "api/Authentication/login",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,

@@ -1,0 +1,1 @@
+Complete flow of Batch Api along with user & authentication service. Also complete integration from React with complete functionality.

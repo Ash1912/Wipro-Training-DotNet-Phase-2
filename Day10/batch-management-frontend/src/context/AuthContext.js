@@ -5,6 +5,12 @@ const AuthContext = createContext();
 
 export const AuthProvider = ({ children }) => {
   const [user, setUser] = useState(null);
+
+  useEffect(() => {
+    const storedUser = JSON.parse(localStorage.getItem("user")); // Retrieve user from localStorage
+    if (storedUser) setUser(storedUser);
+  }, []);
+  
   const navigate = useNavigate();
 
   useEffect(() => {
@@ -22,7 +28,6 @@ export const AuthProvider = ({ children }) => {
 
   const logout = () => {
     localStorage.removeItem("token");
-    localStorage.removeItem("role");
     setUser(null);
     navigate("/");
   };

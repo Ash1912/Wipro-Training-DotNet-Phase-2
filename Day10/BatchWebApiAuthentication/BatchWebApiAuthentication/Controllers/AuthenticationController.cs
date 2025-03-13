@@ -20,19 +20,21 @@ namespace BatchWebApiAuthentication.Controllers
             _context = context;
             _configuration = configuration;
         }
-        [HttpPost]
+        [HttpPost("login")]
         public IActionResult Login(LoginViewModel user)
         {
             IActionResult response = Unauthorized();
-            var obj = _context.Users.FirstOrDefault(x => x.Email == user.Email && x.Password == user.Password);
-            if (obj != null)
-            {
-                var tokenString = GenerateJSONWebToken(obj);
-                response = Ok(new { token = tokenString });
-            }
-            return response;
 
+            var obj = _context.Users
+                .FirstOrDefault(x => x.Email.ToLower() == user.Email.ToLower());
+
+            if (obj == null || !BCrypt.Net.BCrypt.Verify(user.Password, obj.Password))
+                return Unauthorized(new { message = "Invalid email or password" });
+
+            var tokenString = GenerateJSONWebToken(obj);
+            return Ok(new { token = tokenString });
         }
+
 
 
         private string GetRoleName(int roleId)
@@ -55,31 +57,29 @@ namespace BatchWebApiAuthentication.Controllers
             //     new Claim(type:"Date", DateTime.Now.ToString())
             //};
 
-            var claims = new Claim[]
-           {
-                new Claim(JwtRegisteredClaimNames.Jti, new Guid().ToString()),
-                new Claim(JwtRegisteredClaimNames.Sid,user.Id.ToString()),
-                new Claim(JwtRegisteredClaimNames.Name, user.FirstName + " " + user.LastName),
-                new Claim(ClaimTypes.Email , user.Email),
+            var claims = new List<Claim>
+            {
+                new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString()),  // Fixed issue
+                new Claim(JwtRegisteredClaimNames.Sid, user.Id.ToString()),
+                new Claim(JwtRegisteredClaimNames.Name, $"{user.FirstName} {user.LastName}"),
+                new Claim(ClaimTypes.Email, user.Email),
                 new Claim(ClaimTypes.Role, role),
-                new Claim(type:"DateOnly", DateTime.Now.ToString())
-           };
+                new Claim("DateOnly", DateTime.UtcNow.ToString("yyyy-MM-dd HH:mm:ss"))
+            };
 
 
             var securityKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_configuration["Jwt:Key"]));
             var credentials = new SigningCredentials(securityKey, SecurityAlgorithms.HmacSha256);
 
-            var token = new JwtSecurityToken(_configuration["Jwt:Issuer"],
-              _configuration["Jwt:Audience"],
-              claims,
-              expires: DateTime.Now.AddMinutes(120),
-              signingCredentials: credentials);
-
-
-
+            var token = new JwtSecurityToken(
+                _configuration["Jwt:Issuer"],
+                _configuration["Jwt:Audience"],
+                claims,
+                expires: DateTime.UtcNow.AddHours(2),
+                signingCredentials: credentials
+            );
 
             return new JwtSecurityTokenHandler().WriteToken(token);
-
         }
 
 

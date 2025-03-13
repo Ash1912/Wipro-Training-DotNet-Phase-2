@@ -8,7 +8,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace BatchWebApiAuthentication.Migrations
 {
     /// <inheritdoc />
-    public partial class userrole : Migration
+    public partial class updatesindb : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -90,8 +90,8 @@ namespace BatchWebApiAuthentication.Migrations
                 columns: new[] { "Id", "Email", "FirstName", "LastName", "ManagerId", "Password", "RoleId" },
                 values: new object[,]
                 {
-                    { 1, "admin@gmail.com", "Deepak", "Kumar", 1, "pass@123", 1 },
-                    { 2, "ajay@gmail.com", "Ajay", "Kumar", 1, "pass@123", 2 }
+                    { 1, "admin@gmail.com", "Deepak", "Kumar", null, "$2a$11$OboJOx2iJf9MHUVzRuQWDOa0j0aQ7PavNrt2RSjXWL6hYE4Fh7zKe", 1 },
+                    { 2, "ajay@gmail.com", "Ajay", "Kumar", 1, "$2a$11$7vOBIT3fqYUyQGHQEn/pLO.bkwvZ7tRulMXggya6CZNAUbLaV35ia", 2 }
                 });
 
             migrationBuilder.CreateIndex(

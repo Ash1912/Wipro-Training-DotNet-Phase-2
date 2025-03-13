@@ -20,8 +20,20 @@ namespace BatchWebApiAuthentication.Controllers
         [HttpGet]
         public async Task<ActionResult<IEnumerable<User>>> GetUsers()
         {
-            return await _context.Users.ToListAsync();
+            try
+            {
+                var users = await _context.Users.ToListAsync();
+                Console.WriteLine($"Fetched {users.Count} users from the database.");
+                return Ok(users);
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error in GetUsers: {ex.Message} \n StackTrace: {ex.StackTrace}");
+                return StatusCode(500, $"Internal Server Error: {ex.Message}");
+            }
         }
+
+
 
         // GET: api/Users/5
         [HttpGet("{id}")]
@@ -45,10 +57,27 @@ namespace BatchWebApiAuthentication.Controllers
         {
             if (id != user.Id)
             {
-                return BadRequest();
+                return BadRequest(new { message = "User ID mismatch" });
             }
 
-            _context.Entry(user).State = EntityState.Modified;
+            var existingUser = await _context.Users.FindAsync(id);
+            if (existingUser == null)
+            {
+                return NotFound(new { message = "User not found" });
+            }
+
+            // Preserve the existing password if no new password is provided
+            if (string.IsNullOrWhiteSpace(user.Password))
+            {
+                user.Password = existingUser.Password; // Retain old hashed password
+            }
+            else
+            {
+                // Hash the new password before updating
+                user.Password = BCrypt.Net.BCrypt.HashPassword(user.Password);
+            }
+
+            _context.Entry(existingUser).CurrentValues.SetValues(user);
 
             try
             {
@@ -56,14 +85,7 @@ namespace BatchWebApiAuthentication.Controllers
             }
             catch (DbUpdateConcurrencyException)
             {
-                if (!UserExists(id))
-                {
-                    return NotFound();
-                }
-                else
-                {
-                    throw;
-                }
+                return Conflict(new { message = "Concurrency error" });
             }
 
             return NoContent();
@@ -74,11 +96,30 @@ namespace BatchWebApiAuthentication.Controllers
         [HttpPost]
         public async Task<ActionResult<User>> PostUser(User user)
         {
-            Console.WriteLine($"Received User: {user.Email}, {user.FirstName}, {user.LastName}");
-            _context.Users.Add(user);
-            await _context.SaveChangesAsync();
+            try
+            {
+                Console.WriteLine($"Received User: {user.Email}, {user.FirstName}, {user.LastName}");
 
-            return CreatedAtAction("GetUser", new { id = user.Id }, user);
+                // Validate Role
+                var role = await _context.Roles.FindAsync(user.RoleId);
+                if (role == null)
+                {
+                    return BadRequest(new { message = "Invalid RoleId. Role does not exist." });
+                }
+
+                // Hash Password
+                user.Password = BCrypt.Net.BCrypt.HashPassword(user.Password);
+
+                _context.Users.Add(user);
+                await _context.SaveChangesAsync();
+
+                return CreatedAtAction(nameof(GetUser), new { id = user.Id }, user);
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error in PostUser: {ex.Message} \n StackTrace: {ex.StackTrace}");
+                return StatusCode(500, $"Internal Server Error: {ex.Message}");
+            }
         }
 
         // DELETE: api/Users/5
@@ -88,7 +129,7 @@ namespace BatchWebApiAuthentication.Controllers
             var user = await _context.Users.FindAsync(id);
             if (user == null)
             {
-                return NotFound();
+                return NotFound(new { message = "User not found" });
             }
 
             _context.Users.Remove(user);

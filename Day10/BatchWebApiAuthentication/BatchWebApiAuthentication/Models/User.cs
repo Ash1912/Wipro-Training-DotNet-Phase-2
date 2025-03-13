@@ -19,11 +19,12 @@ namespace BatchWebApiAuthentication.Models
 
         // add foreign key
         public int RoleId { get; set; }
+        [ForeignKey("RoleId")]
         public Role? Role { get; set; }
 
         // adding fkey , self join
-        [ForeignKey("ManagerId")]
         public int? ManagerId { get; set; }
+        [ForeignKey("ManagerId")]
         public User? Manager { get; set; }
     }
 }
