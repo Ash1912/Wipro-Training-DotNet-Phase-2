@@ -9,7 +9,7 @@ const Navbar = () => {
   return (
     <nav className="navbar">
       <div className="navbar-brand">
-        Batch Management App {user && user.name ? `- Welcome, ${user.name}` : ""}
+        Batch Management App {user ? `- Welcome, ${user.firstName || user.email}` : ""}
       </div>
 
       <div className="navbar-links">
@@ -20,7 +20,7 @@ const Navbar = () => {
             <button onClick={logout} className="logout-btn">Logout</button>
           </>
         ) : (
-          <Link to="">Login</Link> // Show Login button if user is not authenticated
+          <Link to="/">Login</Link> // Show Login button if user is not authenticated
         )}
       </div>
     </nav>

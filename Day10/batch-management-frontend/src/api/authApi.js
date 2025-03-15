@@ -3,12 +3,12 @@ import api from "./api";
 export const login = async (credentials) => {
   try {
     const response = await api.post("/Authentication/login", credentials);
-    const { token } = response.data;
-    
-    // Store token in localStorage
-    localStorage.setItem("token", token);
+    const { token, user } = response.data; // Assuming the API response includes user details
 
-    return { token };
+    localStorage.setItem("token", token);
+    localStorage.setItem("user", JSON.stringify(user)); // Store user data
+
+    return { token, user };
   } catch (error) {
     console.error("Login failed:", error);
     throw error;
@@ -33,4 +33,5 @@ export const refreshToken = async () => {
 
 export const logout = () => {
   localStorage.removeItem("token");
+  localStorage.removeItem("user");
 };

@@ -11,8 +11,8 @@ const Login = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const { token } = await login({ email, password });
-      setLogin(token);
+      const { token, user } = await login({ email, password });
+      setLogin(token, user);
     } catch (err) {
       alert("Invalid email or password");
     }

@@ -7,7 +7,7 @@ const Dashboard = () => {
 
   return (
     <div className="dashboard-container">
-      <h2>Welcome, {user?.email ? user.email : "Guest"}!</h2>
+      <h2>Welcome, {user?.firstName || user?.email || "Guest"}!</h2>
       <nav>
         <Link to="/batch-management">Batch Management</Link>
         <Link to="/user-management">User Management</Link>
